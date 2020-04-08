@@ -1,0 +1,33 @@
+@import "../../variablesThemed";
+
+input[type="range"] {
+  outline: 0;
+  border: 0;
+  border-radius: $border-radius;
+  width: 100%;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    & {
+      overflow: hidden;
+      height: 1rem;
+      -webkit-appearance: none;
+      background-color: $lightGreyBootstrap;
+    }
+    &::-webkit-slider-runnable-track {
+      height: 1rem;
+      margin-left: -1.5rem;
+    }
+    &::-webkit-slider-thumb {
+      width: 1rem;
+      -webkit-appearance: none;
+      height: 1rem;
+      margin-left: 1rem;
+      cursor: ew-resize;
+      background: $primary;
+      box-shadow: -806px 0 0 800px$primary, inset 0 0 0 40px $primary;
+      border-radius: 50%;
+      transition: box-shadow 0.2s ease-in-out;
+      position: relative;
+    }
+  }
+}

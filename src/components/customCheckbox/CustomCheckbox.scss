@@ -1,0 +1,31 @@
+@import "../../variablesThemed";
+
+.checkboxContainer {
+  position: relative;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .checkbox-custom {
+    position: absolute;
+    color: $lightGrey;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+    margin-top: -0.25rem;
+    margin-left: 0.25rem;
+    z-index: -1;
+  }
+
+  input[type="checkbox"]:checked ~ .checkbox-custom {
+    color: $primary;
+  }
+}

@@ -1,0 +1,45 @@
+@import "../../variablesThemed";
+
+.badge-primary {
+  width: 100%;
+  max-width: 100px;
+  padding: 0.5rem !important;
+
+  &[priority="0"] {
+    background-color: $low;
+  }
+  &[priority="1"] {
+    background-color: $medium;
+  }
+  &[priority="2"] {
+    background-color: $high;
+  }
+}
+
+.fixedWidth {
+  width: 3em;
+}
+
+.icon {
+  font-size: 1rem;
+  background-color: $primary;
+  color: $white;
+  padding: 0.25rem;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.done {
+  text-decoration: line-through;
+  color: $lightGrey;
+}
+
+.border-none {
+  border-color: transparent;
+}
+
+.progress-bar {
+  transition: none;
+}
