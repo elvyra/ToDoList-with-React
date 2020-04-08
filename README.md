@@ -4,18 +4,18 @@ Example data saved in array (JSON).
 
 ### Custom design:
 
-design visual - js_todo.png,
-with fontawesome for react,
-with bootstrap for react,
-Sass (SCSS)
+-> design visual - js_todo.png, <br />
+-> with fontawesome for react, <br />
+-> with bootstrap for react, <br />
+-> Sass (SCSS)
 
 ### Functionality:
 
-view full list
-add new item
-delete item
-check as done
-search with dropdown suggestions (changed by typing)
+-> view full list, <br />
+-> add new item, <br />
+-> delete item, <br />
+-> check as done, <br />
+-> search with dropdown suggestions (changed by typing)
 
 ---
 
